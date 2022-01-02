@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BallPool Rewards</string>
+    <string name="brand_name"> </string>
+
+    <string name="dev">This App is Developed By <i><b>MrRoy121</b></i>!!\n Visit Website for his details more.</string>
+    <string name="admob_app_id">
+        ca-app-pub-9990932926149856~7144556296</string>
+    <string name="admob_interstitial_id">
+        ca-app-pub-9990932926149856/8812861183</string>
+</resources>
