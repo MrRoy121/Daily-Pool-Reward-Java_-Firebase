@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg1"
+    android:foreground="@drawable/bg2"
+    tools:context=".CongratsActivity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/back"
+        android:scaleType="fitXY"
+        android:background="#57FFFFFF"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Congratulations"
+        android:textColor="#3C0202"
+        android:textSize="42sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:fontFamily="@font/montserrat_bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="You Won"
+        android:layout_marginTop="20dp"
+        android:textColor="#3C0202"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="@font/montserrat_regular"
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="00000"
+        android:layout_margin="10dp"
+        android:textColor="#3C0202"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:fontFamily="@font/montserrat_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Points"
+        android:textColor="#3C0202"
+        android:layout_marginTop="-10dp"
+        android:textSize="22sp"
+        android:layout_marginBottom="20dp"
+        android:textStyle="bold" />
+
+
+    <com.startapp.sdk.ads.banner.Mrec
+        android:id="@+id/startAppCover"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-40dp"/>
+</LinearLayout>
+</FrameLayout>
